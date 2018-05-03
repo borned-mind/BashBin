@@ -10,7 +10,7 @@ size=$1
 
 if [[ $# < 2 ]];
 then
-	AllowedS="[a-z][A-Z][0-9]_!@#\$%^!"
+	AllowedS="a-zA-Z0-9_!@#\$%^![]"
 else
 	AllowedS="$2"
 fi
